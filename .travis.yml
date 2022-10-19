@@ -1,0 +1,9 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t songchenli/udemy_docker-react -f Dockerfile.dev .
+
+script:
+  - docker run -e CI=true songchenli/udemy_docker-react npm run test
