@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React in a Stormy Day
+          Learn React in a Snowy Day
         </a>
       </header>
     </div>
